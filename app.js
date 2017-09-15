@@ -81,3 +81,8 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
 });
 
 document.querySelector('.btn-new').addEventListener('click', init);
+
+document.querySelector('.btn-rules').addEventListener('click', function() {
+  let rules = document.querySelector('.rules');
+  rules.style.display = rules.style.display === 'none' ? 'block' : 'none';
+});
