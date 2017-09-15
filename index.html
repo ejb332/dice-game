@@ -3,13 +3,24 @@
     <head>
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
-        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
         <link type="text/css" rel="stylesheet" href="style.css">
 
         <title>Pig Game</title>
     </head>
 
     <body>
+        <div class="rules">
+            <h3 class="rules-header">GAME RULES</h3>
+            <p class="rules-text">- The game has 2 players, playing in rounds</p>
+            <p class="rules-text">- In each turn, a player rolls the dice as many times as he or she wishes.
+            Each result gets added to the CURRENT score</p>
+            <p class="rules-text">- If the player rolls a 1, all CURRENT score points are lost and next player
+                takes their turn
+            <p class="rules-text">- The player can choose to 'Hold', which means that his CURRENT score gets added to his GLOBAL score, and the next player takes their turn</p>
+            <p class="rules-text">- The first player to reach 100 points on GLOBAL score wins the game</p>
+        </div>
+        
         <div class="wrapper clearfix">
             <div class="player-0-panel active">
                 <div class="player-name" id="name-0">Player 1</div>
@@ -34,17 +45,6 @@
             <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
 
             <img src="dice-5.png" alt="Dice" class="dice">
-        </div>
-
-        <div class="rules">
-            <h3 class="rules-header">GAME RULES</h3>
-            <p class="rules-text">- The game has 2 players, playing in rounds</p>
-            <p class="rules-text">- In each turn, a player rolls the dice as many times as he or she wishes.
-            Each result gets added to the CURRENT score</p>
-            <p class="rules-text">- If the player rolls a 1, all CURRENT score points are lost and next player
-                takes their turn
-            <p class="rules-text">- The player can choose to 'Hold', which means that his CURRENT score gets added to his GLOBAL score, and the next player takes their turn</p>
-            <p class="rules-text">- The first player to reach 100 points on GLOBAL score wins the game</p>
         </div>
 
         <script src="app.js" type="text/javascript"></script>
