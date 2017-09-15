@@ -26,6 +26,26 @@ body {
     color: #555;
 }
 
+.rules {
+    position: relative;
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    border: 3px solid white;
+    padding: 10px;
+    overflow: scroll;
+    background-color: #404040;
+    color: #C90813;
+}
+
+.rules-header, .rules-text {
+    text-align: center;
+}
+
+.rules-text {
+    padding: 5px;
+}
+
 .wrapper {
     width: 1000px;
     position: absolute;
